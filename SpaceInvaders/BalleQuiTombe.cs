@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace SpaceInvaders
 {
@@ -34,6 +35,7 @@ namespace SpaceInvaders
 
         private bool alive = true;
 
+        public HashSet<Keys> keyPressed = new HashSet<Keys>();
         #endregion
 
         #region Constructor
@@ -53,6 +55,22 @@ namespace SpaceInvaders
 
         public override void Update(Game gameInstance, double deltaT)
         {
+            if (gameInstance.keyPressed.Contains(Keys.Right))
+            {
+                x++;
+            }
+            if (gameInstance.keyPressed.Contains(Keys.Left))
+            {
+                x--;
+            }
+            if (gameInstance.keyPressed.Contains(Keys.Up))
+            {
+                y--;
+            }
+            if (gameInstance.keyPressed.Contains(Keys.Down))
+            {
+                y++;
+            }
             y += ballSpeed * deltaT;
             if (y > gameInstance.gameSize.Height)
                 alive = false;
