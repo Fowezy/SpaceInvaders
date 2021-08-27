@@ -1,0 +1,9 @@
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.csprojAssemblyReference.cache
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.GameForm.resources
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.Properties.Resources.resources
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.csproj.GenerateResource.cache
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.csproj.CoreCompileInputs.cache
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.exe
+H:\I226A\Projet\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.pdb
